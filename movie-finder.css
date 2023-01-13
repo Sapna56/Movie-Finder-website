@@ -1,0 +1,90 @@
+body{
+
+  
+
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    
+  
+   
+    box-sizing: border-box;
+   
+    padding: 0;
+    margin: 0;
+    font-size:18px;
+    
+}
+.title{
+    font-size:30px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(19,19,56);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.full-body{
+    display: flex;/* flex is used to create an entire row using which we can align elements in the div*/
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;   /* allows the elements in the div to be aligned one after another*/
+}
+.form-input{
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 10px 20px;
+    border: 1px solid grey;
+    margin-right:20px;
+
+}
+.form-input:focus{
+    background-color: white;
+}
+.search{
+    border: none;
+    outline: none;
+    background-color: rgb(19,19,56);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    color: white;
+    border: 1px solid grey;
+}
+.search-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+.movie-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgb(24,51,59);
+    margin: 20px;
+    padding: 30px;
+    width: 700px;
+}
+.movie-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin: 0px 200px;
+    
+}
+.value{
+    font-size: 15px;
+    width: 200px;
+}
